@@ -10,7 +10,7 @@ public class FirstClass implements Runnable {
 
     @Override
     public void run() {
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 1; i <= 9; i++) {
             printer.printFirst(i);
         }
     }
